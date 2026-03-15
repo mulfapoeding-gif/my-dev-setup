@@ -1,0 +1,9 @@
+[user]
+	email = mulfapoeding@gmail.com
+	name = mulfapoeding-gif
+[http]
+	postBuffer = 524288000
+	maxRequestBuffer = 100M
+	version = HTTP/1.1
+[core]
+	compression = 0
