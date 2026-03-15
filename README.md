@@ -128,7 +128,10 @@ my-dev-setup/
 │   ├── .goterm.json
 │   └── .qwen/settings.json
 ├── scripts/
-│   └── termux_cli_manager.py   # CLI manager
+│   ├── termux_cli_manager.py   # CLI manager
+│   ├── android-optimizer.sh    # Hidden system optimizer
+│   ├── log_analyzer.py         # Log analysis & auto-tune
+│   └── install-optimizer.sh    # Optimizer installer
 ├── sync/                       # Termux-PC Sync
 │   ├── termux-pc-sync.sh       # Main sync script
 │   ├── backup-termux.sh        # Backup script
@@ -144,7 +147,8 @@ my-dev-setup/
     ├── gemini-cli.md           # Gemini documentation
     ├── tools.md                # Tools reference
     ├── termux-pc-sync.md       # Sync guide
-    └── archer-ax1500-research.md  # Router research
+    ├── archer-ax1500-research.md  # Router research
+    └── ANDROID_OPTIMIZER.md    # System optimizer guide
 ```
 
 ## Configuration
